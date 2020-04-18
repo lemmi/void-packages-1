@@ -1,7 +1,7 @@
 # Template file for 'opencl-amdgpu-standalone'
 pkgname=opencl-amdgpu-standalone
-_major=19.50
-_minor=967956
+_major=20.10
+_minor=1048554
 version=${_major}.${_minor}
 revision=1
 build_style=fetch
@@ -14,8 +14,8 @@ short_desc="Proprietary standalone opencl stack for amdgpu"
 maintainer="lemmi <lemmi@nerd2nerd.org>"
 license="AMD-GPU-PRO"
 homepage="https://amd.com"
-distfiles="https://drivers.amd.com/drivers/linux/${_major}/amdgpu-pro-${_major}-${_minor}-ubuntu-18.04.tar.xz"
-checksum="d8bb480c72b4225ad864c60335d33254ce7d442590e8dd9c05659cc868b7be2f"
+distfiles="https://drivers.amd.com/drivers/linux/amdgpu-pro-${_major}-${_minor}-ubuntu-18.04.tar.xz"
+checksum=7cbd666f9dd3e25a7bd8332a2693cabae2c9b05afe00d286ef7120f38d0335f4
 
 fetch_cmd='wget --referer https://www.amd.com/ -N'
 
